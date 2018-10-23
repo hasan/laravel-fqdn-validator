@@ -1,0 +1,26 @@
+{
+    "name": "chelebi/laravel-fqdn-validator",
+    "version": "1.0.0",
+    "keywords": ["fqdn", "validator", "laravel"],
+    "description": "Fqdn validator for laravel",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Hasan\\LaravelFqdnValidator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Hasan\\LaravelFqdnValidator\\ValidatorServiceProvider"]
+        }
+    },
+    "authors": [{
+        "name": "hasan",
+        "email": "hasan@akgun.me"
+    }]
+}
